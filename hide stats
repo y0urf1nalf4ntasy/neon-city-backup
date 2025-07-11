@@ -1,3 +1,4 @@
+/* hides all stats on fics except word count! for authors, you can still see your own stats if you go to the stats page on your dashboard! */
 #kudos,
 #show_comments_link,
 .bookmark .status .count,
