@@ -1,3 +1,6 @@
+/* only displays fic that are tagged as english */
 .blurb:not(:has(dd[lang$="en"])) {
   display: none !important;
 }
+
+/* be warned that while this has a tendancy to break like half the site! Things like other skins, certain user-made groups and probably more don't show while using this! */
