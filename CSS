@@ -390,32 +390,3 @@ dd.relationship.tags a {
 .blurb .fandoms > a:hover {
   background-color: #ff0095;
 }
-
-.blurb:not(:has(dd[lang$="en"])) {
-  display: none !important;
-}
-
-#kudos,
-#show_comments_link,
-.bookmark .status .count,
-.series .stats,
-.statistics,
-.stats .bookmarks,
-.stats .comments,
-.stats .hits,
-.stats .kudos,
-.stats-index,
-.work .statistics .bookmarks,
-.work .statistics .comments,
-.work .statistics .hits,
-.work .statistics .kudos,
-.work .stats .bookmarks,
-.work .stats .comments,
-.work .stats .hits,
-.work .stats .kudos,
-option[value=bookmarks_count],
-option[value=comments_count],
-option[value=hits],
-option[value=kudos_count] {
-  display: none;
-}
