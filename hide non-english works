@@ -1,0 +1,3 @@
+.blurb:not(:has(dd[lang$="en"])) {
+  display: none !important;
+}
